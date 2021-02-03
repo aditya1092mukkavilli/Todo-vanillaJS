@@ -1,0 +1,74 @@
+@font-face {
+    font-family: ToDoProjectfont;
+    src: url(Quicksand-VariableFont_wght.ttf);
+    
+  }
+  *:focus {
+    outline: none;
+}
+body
+{
+    font-family:ToDoProjectfont;
+    font-size:14px;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+}
+button
+{
+  width: 100px;
+  height: 37px;
+  background-color: #0000003d;
+  color: white;
+  border: whitesmoke;
+  border-radius: 6px;
+}
+button:hover{
+  cursor: pointer;
+  background-color:teal;
+}
+.upper-block{
+    width:100%;
+}
+.upper-block div {
+    width:100%;
+    text-align: center;
+}
+input[name='todoinput'] {
+  background: #00000040;
+  height: 35px;
+  width: 400px;
+  border-radius: 6px;
+  border: none;
+  color:white;
+}
+h1
+{
+  margin:2%;
+  text-align:center;
+  color:white
+}
+ul{
+  padding:0px;
+}
+.lower-block li{
+  text-align: Left;
+  list-style-type: none;
+  width: 33.5%;
+  margin: auto;
+  padding: 2%;
+  background-color: #10101059;
+  color: white;
+  border-radius: 20px;
+  margin-bottom:10px;
+  word-break: break-word;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+li div{
+  word-break: break-word;
+  font-size:16px;
+}
+input[type="checkbox"]{
+  width:25px;
+  height:20px;
+}
