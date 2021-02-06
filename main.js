@@ -1,9 +1,9 @@
 const todo_button = document.querySelector("#btn-todo-add");
 const todo_ul = document.querySelector(".lower-block ul");
-const checkbox = document.querySelector(".lower-block input[type='checkbox']")
+const checkbox = document.querySelector(".lower-block");
 let todo_list = [];
 todo_button.addEventListener("click",addTodoListToArray);
-document.body.addEventListener("click",updateState);
+checkbox.addEventListener("click",updateState);
 
 //Adding values to the Array
 function addTodoListToArray(){
